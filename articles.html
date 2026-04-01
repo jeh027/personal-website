@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>🧍— Reading &amp; notes</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="header-inner">
+        <a class="brand" href="index.html">
+          <span class="logo-mark" aria-hidden="true">JH</span>
+        </a>
+        <nav class="nav-links" aria-label="Primary">
+          <a href="index.html">Home</a>
+          <a href="articles.html" aria-current="page">Reading &amp; Notes</a>
+          <a href="projects.html">Work</a>
+        </nav>
+        <div class="theme-wrap">
+          <label class="theme-label" for="theme-select">Color mode</label>
+          <select id="theme-select" class="theme-select" aria-label="Color mode">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+          </select>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Journey Into My Mind</h1>
+        <p>
+          Articles and papers I'm chewing on, plus research thoughts
+        </p>
+      </section>
+
+      <section class="section">
+        <h2>Readings on my mind</h2>
+
+        <p>Artificial Intelligence</p>
+
+        <div class="card">
+          <div class="article-item">
+            <a href="https://www.citriniresearch.com/p/2028gic" target="_blank" rel="noopener noreferrer nofollow">
+              <strong>The 2028 Global Intelligence Crisis</strong>
+            </a>
+            <div class="article-meta">
+              Citrini Research · Pessimistic outlook on the future driven by AI proliferation
+            </div>
+          </div>
+
+          <div class="article-item">
+            <a href="https://blog.samaltman.com/the-gentle-singularity" target="_blank" rel="noopener noreferrer nofollow">
+              <strong>The Gentle Singularity</strong>
+            </a>
+            <div class="article-meta">
+              Sam Altman · "singularity" | noun | a hypothetical moment in time when artificial intelligence and other 
+              technologies have become so advanced that humanity undergoes a dramatic and irreversible change
+            </div>
+          </div>
+
+          <div class="article-item">
+            <a href="https://dl.acm.org/doi/10.1145/3617694.3623224" target="_blank" rel="noopener noreferrer nofollow">
+              <strong>Taking Off with AI: Lessons from Aviation for Healthcare</strong>
+            </a>
+            <div class="article-meta">
+              Elizabeth Bondi-Kelly · While aviation and artificial intelligence may appear unrelated at first, we can 
+              actually draw inspiration from the robust safety systems in aviation to guide how we address the novel 
+              risks posed by this emerging technology
+            </div>
+          </div>
+
+          <div class="article-item">
+            <a href="https://blog.haojianj.in/posts/shadow-ai-coding" target="_blank" rel="noopener noreferrer nofollow">
+              <strong>Shadowing How Peter Steinberger Codes with AI</strong>
+            </a>
+            <div class="article-meta">
+              The Hero with a Thousand Faces · Effectively and efficiently programmming with AI tools
+            </div>
+          </div>
+        </div>
+
+         <br> <!-- take out later -->
+
+        <p>Media</p>
+
+        <div class="card">
+          <div class="article-item">
+            <strong>Amusing Ourselves to Death: Public Discourse in the Age of Show Business</strong>
+            <div class="article-meta">
+              Neil Postman · Draws the connection between Huxley's fear that "those who would give us so much information
+              that we would be reduced to passivity and egoism" and today's modes of discourse
+            </div>
+          </div>
+
+          <div class="article-item">
+            <a href="https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf" target="_blank" rel="noopener noreferrer nofollow">
+              <strong>The Medium is the Message</strong>
+            </a>
+            <div class="article-meta">
+              Marshall McLuhan · Discusses how the medium in which content is shown directly affects the content itself
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <section class="section">
+        <h2>Research on my mind</h2>
+        <p>
+          Short, informal notes — questions I'm holding, half-formed ideas, or themes I keep
+          returning to
+        </p>
+        <div class="card">
+          <div class="thought-item">
+            <p>
+              From my undergraduate courses to self-driving vehicles, it seems as though every organization is 
+              integrating artificial intelligence into their products, albeit through very different approaches and 
+              values.
+            </p>
+            
+            <br>
+
+            <p>
+              This transformation genuinely fascinates me because this technology has the potential to 
+              help people bring ideas to fruition in record time. Yet at the same time, I am deeply concerned 
+              that applications of this technology will be driven by economic incentives to exploit human 
+              limitations for profit.
+            </p>
+
+            <br>
+
+            <p>
+              Confronting this contrast, I felt compelled to ask, <span class="is-italic">What might a context-aware framework for 
+              integrating artificial intelligence into products look like - one that helps practitioners translate ethical, 
+              unbiased principles into practical designs while allowing practitioners to adapt these principles to the 
+              needs, values, and risks of specific communities?</span>
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">© <span id="y"></span> Jesse Huang. Built with HTML, CSS &amp; JS.</footer>
+    <script>
+      document.getElementById("y").textContent = new Date().getFullYear();
+    </script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>
