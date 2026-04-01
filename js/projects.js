@@ -4,21 +4,21 @@
 var PROJECTS = [
   {
     title: "Agentic Privacy Control Center",
-    image: "../assets/HDSI_Drone-Aerial.jpg",
+    image: "assets/HDSI_Drone-Aerial.jpg",
     description:
       "Our team found that privacy settings are often buried, confusing, and inconsistent, so we built an AI application that finds and modifies them for you.",
     url: "https://sebastianferragut.github.io/DSC180-artifact-directory/",
   },
   {
     title: "Introduction to D3.js",
-    image: "../assets/d3-logo.png",
+    image: "assets/d3-logo.png",
     description:
       "These slides introduce the basic fundamentals of D3 to build custom data visualizations that communicate insights in a creative, yet effective manner.",
     url: "https://jeh027.github.io/Intro-to-D3.js/#intro",
   },
   {
     title: "Tennis Players Versus Court Surface",
-    image: "../assets/roger-federer-tennis.jpg",
+    image: "assets/roger-federer-tennis.jpg",
     description:
       "Tennis is mainly played on three surfaces: grass, hard, and clay. This scrollyteller investigates how the court surface affects professional tennis players' performance.",
     url: "https://jeh027.github.io/Tennis_Data_Viz/",
