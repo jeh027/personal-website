@@ -245,6 +245,10 @@ main {
   text-decoration: underline;
 }
 
+.strikethrough-text {
+  text-decoration: line-through;
+}
+
 .hero .lede {
   margin: 0;
   font-size: 1.125rem;
